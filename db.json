@@ -1,0 +1,165 @@
+{
+  "users": [
+    {
+      "id": "8cb8",
+      "name": "chiwjieren",
+      "email": "jerzltaz@gmail.com",
+      "password": "3333",
+      "deviceId": "08060105f212898e1b8ed51fc564b1959bcf90b97ad6764cefd7d64ae44d263f",
+      "createdAt": "2024-12-09T15:05:57.413Z"
+    },
+    {
+      "id": "8fb3",
+      "name": "ali",
+      "email": "ali@coldmail.com",
+      "password": "6666",
+      "deviceId": "08060105f212898e1b8ed51fc564b1959bcf90b97ad6764cefd7d64ae44d263f",
+      "createdAt": "2024-12-09T15:41:16.290Z"
+    },
+    {
+      "id": "f273",
+      "name": "ggg",
+      "email": "f@gmail.com",
+      "password": "0000",
+      "deviceId": "08060105f212898e1b8ed51fc564b1959bcf90b97ad6764cefd7d64ae44d263f",
+      "createdAt": "2024-12-10T03:36:19.685Z"
+    }
+  ],
+  "events": [
+    {
+      "id": "1",
+      "title": "Taylor Swift | The Eras Tour",
+      "description": "Taylor Swift brings her record-breaking tour to Malaysia",
+      "date": "2024-06-15T19:00:00Z",
+      "venue": "Bukit Jalil National Stadium",
+      "category": "concert",
+      "imageUrl": "https://example.com/taylor-swift.jpg",
+      "prices": {
+        "vip": 1288,
+        "cat1": 988,
+        "cat2": 788,
+        "cat3": 588
+      },
+      "availableSeats": {
+        "vip": 100,
+        "cat1": 500,
+        "cat2": 1000,
+        "cat3": 2000
+      }
+    },
+    {
+      "id": "2",
+      "title": "Coldplay | Music Of The Spheres",
+      "description": "Coldplay returns to Malaysia with their spectacular world tour",
+      "date": "2024-07-20T20:00:00Z",
+      "venue": "Bukit Jalil National Stadium",
+      "category": "concert",
+      "imageUrl": "https://example.com/coldplay.jpg",
+      "prices": {
+        "vip": 1088,
+        "cat1": 888,
+        "cat2": 688,
+        "cat3": 488
+      },
+      "availableSeats": {
+        "vip": 150,
+        "cat1": 599,
+        "cat2": 1200,
+        "cat3": 2500
+      }
+    },
+    {
+      "id": "3",
+      "title": "Malaysia vs Indonesia | AFF Cup Final",
+      "description": "The biggest football rivalry in Southeast Asia",
+      "date": "2024-05-10T20:00:00Z",
+      "venue": "Bukit Jalil National Stadium",
+      "category": "sports",
+      "imageUrl": "https://example.com/football.jpg",
+      "prices": {
+        "vip": 300,
+        "cat1": 200,
+        "cat2": 150,
+        "cat3": 80
+      },
+      "availableSeats": {
+        "vip": 200,
+        "cat1": 1000,
+        "cat2": 2000,
+        "cat3": 3000
+      }
+    },
+    {
+      "id": "4",
+      "title": "The Phantom of the Opera",
+      "description": "The world's most popular musical comes to KL",
+      "date": "2024-08-15T19:30:00Z",
+      "venue": "Istana Budaya",
+      "category": "theatre",
+      "imageUrl": "https://example.com/phantom.jpg",
+      "prices": {
+        "vip": 888,
+        "cat1": 688,
+        "cat2": 488,
+        "cat3": 288
+      },
+      "availableSeats": {
+        "vip": 100,
+        "cat1": 300,
+        "cat2": 500,
+        "cat3": 800
+      }
+    }
+  ],
+  "purchases": [
+    {
+      "id": "1",
+      "userId": "8cb8",
+      "eventId": 1,
+      "eventTitle": "Taylor Swift | The Eras Tour",
+      "category": "vip",
+      "quantity": 2,
+      "totalPrice": 2576,
+      "purchaseDate": "2024-03-14T10:30:00Z",
+      "status": "confirmed"
+    },
+    {
+      "id": "2",
+      "userId": "8cb8",
+      "eventId": 2,
+      "eventTitle": "Coldplay | Music Of The Spheres",
+      "category": "cat2",
+      "quantity": 4,
+      "totalPrice": 2752,
+      "purchaseDate": "2024-03-14T09:15:00Z",
+      "status": "confirmed"
+    },
+    {
+      "id": "a17e",
+      "eventId": "2",
+      "userId": "8fb3",
+      "category": "cat1",
+      "quantity": 1,
+      "totalPrice": 888,
+      "purchaseDate": "2024-12-09T15:41:35.301Z",
+      "status": "confirmed"
+    }
+  ],
+  "dashboard": {
+    "stats": {
+      "totalEvents": 4,
+      "upcomingEvents": 4,
+      "totalTicketsSold": 6,
+      "recentSales": [
+        {
+          "description": "2 VIP tickets purchased for Taylor Swift Concert",
+          "timestamp": "2024-03-14T10:30:00Z"
+        },
+        {
+          "description": "4 CAT2 tickets purchased for Coldplay Concert",
+          "timestamp": "2024-03-14T09:15:00Z"
+        }
+      ]
+    }
+  }
+}
